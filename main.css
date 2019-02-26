@@ -1,0 +1,95 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+.body{
+    background: #2c3e50;
+
+}
+
+.services-section {
+    padding: 60px 0;
+    background: #2c3e50;
+    color: #d1d8e0;
+}
+
+.services-title {
+    text-align: center;
+    font-size: 1.4em;
+    color: #82ccdd;
+    flex-basis: 100%;
+}
+
+.inner-container{
+    overflow: hidden;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.border{
+    width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+}
+
+.services-container {
+    padding: 20px;
+    border: 0px #2ecc71;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.service-box {
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.service-item {
+    border: 1px solid #82ccdd;
+    padding: 10px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    color: #82ccdd;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+}
+
+.service-box:hover .service-item {
+    background: #82ccdd;
+    color: #4b6584;
+}
+
+.service-item i {
+    line-height: 50px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+}
+
+@media screen and (max-width:960px) {
+    .service-box{
+      max-width: 45%;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .service-box{
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .service-box{
+      max-width: 100%;
+    }
