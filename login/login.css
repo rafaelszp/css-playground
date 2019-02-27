@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: 14px;
+    color: #2c3e50;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.fullbg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    /* background-image: url('http://cleancanvas.herokuapp.com/img/backgrounds/color-splash.jpg'); */
+    background-repeat:repeat;
+    background: rgb(25,25,25);
+    background: linear-gradient(48deg, rgba(25,25,25,1) 36%, rgba(53,81,219,0.8270658605238971) 86%);
+
+}
+
+.login-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-title h1 {
+    padding-bottom: 20px;
+    font-weight: 2000;
+    font-size: 1.4em;
+    color: #ddd;
+    text-transform: uppercase;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: rgb(25,25,25);
+    background: linear-gradient(100deg, rgba(25,25,25,1) 66%, rgba(53,81,219,0.8270658605238971) 98%);
+    padding: 20px;
+    border-radius: 20px;
+
+    
+}
+
+.login-box input, .btn{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 3px;
+    font-size: 1.23em;
+    font-weight: 1000;
+}
+
+.login-box input {
+    background: #f5f6fa;
+    border-radius: 50px;
+}
+
+.input-group .icon {
+    position: relative;
+    top: 0px;
+    right: 45px;
+    z-index: 10;
+}
+
+.btn {
+    margin: 5px;
+    color: #f5f6fa;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.btn i {
+    color: white;
+}
+
+.btn:hover {
+    background: rgb(39,60,117);
+    background: linear-gradient(270deg, rgba(39,60,117,1) 64%, rgba(126,143,186,1) 90%);
+}
+
+
+
