@@ -18,7 +18,6 @@
     left: 0;
     background-size: cover;
     background-position: 50% 50%;
-    /* background-image: url('http://cleancanvas.herokuapp.com/img/backgrounds/color-splash.jpg'); */
     background-repeat:repeat;
     background: rgb(25,25,25);
     background: linear-gradient(48deg, rgba(25,25,25,1) 36%, rgba(53,81,219,0.8270658605238971) 86%);
@@ -42,7 +41,7 @@
 
 .login-box {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 400px;
@@ -54,8 +53,14 @@
     
 }
 
+.input-group {
+    width: 100%;
+    background: #f5f6fa;
+    border-radius: 50px;
+    text-align: left;
+    margin: 5px;
+}
 .login-box input, .btn{
-    width: 90%;
     padding: 10px;
     margin-bottom: 3px;
     font-size: 1.23em;
@@ -65,12 +70,13 @@
 .login-box input {
     background: #f5f6fa;
     border-radius: 50px;
+    width: 90%;
 }
 
 .input-group .icon {
     position: relative;
     top: 0px;
-    right: 45px;
+    right: 8px;
     z-index: 10;
 }
 
@@ -90,5 +96,24 @@
     background: linear-gradient(270deg, rgba(39,60,117,1) 64%, rgba(126,143,186,1) 90%);
 }
 
+@media screen and (max-width: 320px){
+    .login-box {
+        top: 0%;
+        transform: translate(-50%,0);
+        border-radius: 0;
+        width: 100%;
+        margin: 0;
+    }
+}
 
+@media screen and (max-width: 480px){
+    .login-box {
+        top: 0%;
+        transform: translate(-50%,0);
+        border-radius: 0;
+    }
+    .btn {
+        width: 40%;
+    }
+}
 

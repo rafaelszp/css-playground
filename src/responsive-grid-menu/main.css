@@ -45,6 +45,11 @@
     justify-content: center;
 }
 
+.service-title {
+    font-weight: bold;
+    color: #ddd;
+}
+
 .service-box {
     max-width: 33.33%;
     padding: 10px;

@@ -1,0 +1,25 @@
+{
+  "name": "css-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-login": "lite-server --c=./src/login/bs-config.json",
+    "start-grid": "lite-server -c=./src/responsive-grid-menu/bs-config.json",
+    "start-all": "lite-server -c=./bs-config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelszp/css-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelszp/css-playground/issues"
+  },
+  "homepage": "https://github.com/rafaelszp/css-playground#readme",
+  "dependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
